@@ -18,6 +18,6 @@ public class MainActivity extends Activity {
         GifImageView testgif = (GifImageView) findViewById(R.id.testgif);
         testgif.setImageResource(R.mipmap.giftest);
         //我是一个快乐小宝宝
-
+  //我是一个快乐小宝宝dddddddddddddddd
     }
 }
