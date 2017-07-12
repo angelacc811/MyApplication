@@ -34,7 +34,7 @@ public class MainActivity extends Activity implements View.OnClickListener{
         post.setOnClickListener(this);
 
     }
-
+//系统方法
     @Override
     public void onClick(View view) {
       switch (view.getId())
