@@ -13,6 +13,12 @@ import com.lzy.okgo.callback.StringCallback;
 import okhttp3.Call;
 import okhttp3.Response;
 import pl.droidsonroids.gif.GifImageView;
+/**
+ * @ClassName: MainActivity
+ * @Description: 主页
+ * @author chun.chen@wonhe.net
+ * @date 2017/7/12
+ */
 public class MainActivity extends Activity implements View.OnClickListener{
     TextView show;
     @Override
@@ -42,8 +48,12 @@ public class MainActivity extends Activity implements View.OnClickListener{
       }
     }
     /**
-     * get请求获取数据
-     * @param url
+     * @methodName: getByOkGo
+     * @Description: get请求
+     * @param:  url
+     * @return:  void
+     * @author chun.chen@wonhe.net
+     * @date 2017/7/12
      */
     private void getByOkGo(String url){
         OkGo.get(url)                            // 请求方式和请求url
@@ -58,8 +68,12 @@ public class MainActivity extends Activity implements View.OnClickListener{
                 });
     }
     /**
-     * post请求
-     * @param url
+     * @methodName: postByOkGo
+     * @Description: post请求
+     * @param:  url
+     * @return:  void
+     * @author chun.chen@wonhe.net
+     * @date 2017/7/12
      */
     private void postByOkGo(String url){
         OkGo.post(url)
