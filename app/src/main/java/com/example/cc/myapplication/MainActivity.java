@@ -17,6 +17,7 @@ public class MainActivity extends Activity {
         setContentView(R.layout.activity_main);
         GifImageView testgif = (GifImageView) findViewById(R.id.testgif);
         testgif.setImageResource(R.mipmap.giftest);
+        //我是一个快乐小宝宝
 
     }
 }
