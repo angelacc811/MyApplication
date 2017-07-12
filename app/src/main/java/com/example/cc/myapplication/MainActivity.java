@@ -4,10 +4,6 @@ import android.app.Activity;
 import android.os.Bundle;
 
 import pl.droidsonroids.gif.GifImageView;
-
-/**
- * 主页 烦烦烦方法
- */
 public class MainActivity extends Activity {
 
     @Override
