@@ -19,6 +19,7 @@ import pl.droidsonroids.gif.GifImageView;
  * @author chun.chen@wonhe.net
  * @date 2017/7/12
  */
+
 public class MainActivity extends Activity implements View.OnClickListener{
     TextView show;
     @Override
