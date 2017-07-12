@@ -15,7 +15,7 @@ import okhttp3.Response;
 import pl.droidsonroids.gif.GifImageView;
 /**
  * @ClassName: MainActivity
- * @Description: 主页
+ * @Description:
  * @author chun.chen@wonhe.net
  * @date 2017/7/12
  */
