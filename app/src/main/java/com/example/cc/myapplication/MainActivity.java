@@ -6,7 +6,7 @@ import android.os.Bundle;
 import pl.droidsonroids.gif.GifImageView;
 
 /**
- * 主页 烦烦烦哦哦
+ * 主页 
  */
 public class MainActivity extends Activity {
 
