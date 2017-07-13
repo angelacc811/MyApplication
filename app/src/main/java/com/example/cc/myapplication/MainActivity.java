@@ -1,21 +1,18 @@
 package com.example.cc.myapplication;
-
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
-
 import com.lzy.okgo.OkGo;
 import com.lzy.okgo.cache.CacheMode;
 import com.lzy.okgo.callback.StringCallback;
-
 import okhttp3.Call;
 import okhttp3.Response;
 import pl.droidsonroids.gif.GifImageView;
 /**
  * @ClassName: MainActivity
- * @Description:
+ * @Description: 主页
  * @author chun.chen@wonhe.net
  * @date 2017/7/12
  */
@@ -34,7 +31,7 @@ public class MainActivity extends Activity implements View.OnClickListener{
         post.setOnClickListener(this);
 
     }
-//系统方法
+
     @Override
     public void onClick(View view) {
       switch (view.getId())
