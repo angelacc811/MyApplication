@@ -14,7 +14,7 @@ import okhttp3.Call;
 import okhttp3.Response;
 
 /**
- * @ClassName: MainActivity
+ * @ClassName: OkHttpActivity
  * @Description: 主页
  * @author chun.chen@wonhe.net
  * @date 2017/7/12
