@@ -15,7 +15,7 @@ import okhttp3.Response;
 
 /**
  * @ClassName: OkHttpActivity
- * @Description: 主页
+ * @Description: 网络处理
  * @author chun.chen@wonhe.net
  * @date 2017/7/12
  */
